@@ -75,7 +75,7 @@ export default class App extends React.Component {
           initialRegion={this.state.region}
           style={styles.map}
           ref={(map) => this.map = map}>
-          <Driver driver={{ uid: 'null', location: { latitude: 40.4169, longitude: 3.7035 } }} />
+          <Driver driver={{ uid: 'null', location: { latitude: 55.91304, longitude: -4.21892 } }} />
         </MapView>
       </View>
     );
